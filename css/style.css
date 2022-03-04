@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.lx{
+  margin-right: 2%;
+}
+
+.dx{
+  margin-left: 2%;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgb(1, 133, 255);
+}
+aside{
+  width: 19%;
+  height: 400px ;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.bg-l-blue{
+  background-color: rgb(171, 207, 231);
+}
+
+.logo{
+  background-color: rgb(209, 112, 210);
+  height: 100px;
+}
+
+.jumbotron{
+  background-color: rgb(225, 214, 122);
+  height: 300px;
+}
+
+.col-3{
+  /* height: 600px; */
+}
+
+.title{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+section{
+  float: left;
+  width: 58%;
+  height: 400px;
+}
+
+.credits{
+  height: 50px;
+  background-color: rgb(102, 10, 182);
+  margin-bottom: 0;
+}
