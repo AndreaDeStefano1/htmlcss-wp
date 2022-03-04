@@ -13,11 +13,11 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.lx{
+.mg-lx{
   margin-right: 2%;
 }
 
-.dx{
+.mg-dx{
   margin-left: 2%;
 }
 
@@ -29,8 +29,8 @@ body{
   max-width: 1200px;
 }
 aside{
-  width: 19%;
-  height: 400px ;
+  width: 22%;
+  /* height: 400px ; */
   float: left;
   margin-bottom: 20px;
 }
@@ -77,10 +77,11 @@ aside{
   height: 50%;
 }
 
-.jumbotron h2, p{
+.jumbotron h2, .jumbotron p{
   width: 60%;
   padding-left: 30px;
   vertical-align: middle;
+  color: white;
 }
 
 .overlay{
@@ -97,10 +98,46 @@ aside{
   margin-bottom: 20px;
 }
 
+.title h2{
+  font-size:2.5rem;
+  font-weight:900;
+}
+
+aside .small-img-dx{
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+aside .small-img-lx{
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.description{
+  padding-top: 10px;
+}
+
+.big-img{
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
 section{
   float: left;
-  width: 58%;
-  height: 400px;
+  width: 52%;
+  /* height: 400px; */
+  margin-bottom: 20px;
 }
 
 .credits{
