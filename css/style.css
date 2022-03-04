@@ -9,6 +9,10 @@
   clear: both;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .lx{
   margin-right: 2%;
 }
@@ -34,9 +38,27 @@ aside{
   background-color: rgb(171, 207, 231);
 }
 
-.logo{
-  background-color: rgb(209, 112, 210);
-  height: 100px;
+.navbar{
+  /* background-color: rgb(209, 112, 210); */
+  /* height: 100px; */
+}
+.navbar img{
+  width: 20%;
+  padding-right: 15px;
+  border-right: 1px solid rgb(155, 155, 155);
+}
+
+.navbar ul{
+  padding-top: 10px;
+  list-style: none;
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding-right: 5px;
+}
+.navbar ul li:hover{
+  color: orange;
 }
 
 .jumbotron{
