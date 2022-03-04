@@ -25,7 +25,7 @@ body{
   width: 70%;
   margin: auto;
   margin-bottom: 20px;
-  background-color: rgb(1, 133, 255);
+  /* background-color: rgb(1, 133, 255); */
   max-width: 1200px;
 }
 aside{
@@ -36,7 +36,7 @@ aside{
 }
 
 .bg-l-blue{
-  background-color: rgb(171, 207, 231);
+  /* background-color: rgb(171, 207, 231); */
 }
 
 .navbar{
@@ -60,11 +60,12 @@ aside{
 }
 .navbar ul li:hover{
   color: orange;
+  cursor: pointer;
 }
 
 .jumbotron{
-  background-color: rgb(225, 214, 122);
-  height: 400px;
+  /* background-color: rgb(225, 214, 122); */
+  height: 500px;
   background-image: url(../img/banner.jpg);
   background-size: cover;
   background-position: center;
@@ -142,6 +143,14 @@ section{
 
 .credits{
   height: 50px;
-  background-color: rgb(102, 10, 182);
+  /* background-color: rgb(102, 10, 182); */
   margin-bottom: 0;
+}
+
+.credits > span{
+  text-align: center;
+  display: block;
+}
+.heart{
+  color: red;
 }
